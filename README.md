@@ -26,17 +26,17 @@ https://math.mit.edu/~goemans/18433S09/matroid-notes.pdf
 
 To use the class specify the desired partitions and capacities for each partition:
 
-'p = [[0,1],[2,3]] # Partitions'
-'k = [1,1]         # Capacities'
+`p = [[0,1],[2,3]] # Partitions`
+`k = [1,1]         # Capacities`
 
 Then create a partition matroid:
 
-M = PartitionMatroid(partition=p, capacity=k) # Matroid
+`M = PartitionMatroid(partition=p, capacity=k) # Matroid`
 
 Check the ground set or independent sets of the matroid with:
 
-M.groundset()
-M.independent_sets()
+`M.groundset()`
+`M.independent_sets()`
 
 ## Dependencies
 You need SageMath installed:
