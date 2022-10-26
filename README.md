@@ -11,7 +11,7 @@ with ground set $E$ and family of independent sets $I$.
 
 For a partition matroid the ground set $E$ is partitioned into disjoint sets $E_1,E_2...E_l$ and an independent set $X$ must follow:
 
-$I = \left{ X \in E: |X \cap E_i \le k_i| \right} $ 
+$I = \{ X \in E: |X \cap E_i \le k_i| \} $ 
 
 for all $i = 1,...,l$
 
