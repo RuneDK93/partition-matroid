@@ -15,9 +15,9 @@ with ground set $E$ and family of independent sets $I$.
 
 For a partition matroid the ground set $E$ is partitioned into disjoint sets $E_1,E_2...E_l$ and the family of independent sets is defined by:
 
-$I = ( X \subseteq E: |X \cap E_i \le k_i|  \ \forall i = 1,...,l )$
+$I = ( X \subseteq E: |X \cap E_i| \le k_i  \ \forall i = 1,...,l )$
 
-So the cardinality / size of the intersection of an independent set with each partition $E_i$ must be at max the capacity $k_i$.
+So the cardinality of the intersection of an independent set with each partition $E_i$ must be less than or equal to the capacity $k_i$ for the given partition.
 
 For more background see:
 https://math.mit.edu/~goemans/18433S09/matroid-notes.pdf
