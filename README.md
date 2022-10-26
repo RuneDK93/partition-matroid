@@ -3,13 +3,15 @@ A Sage based class for creating partition matroids with tuneable capacities.
 
 ## Partition Matroids
 
-A partition matroid is defined by:
+A matroid is defined by:
 
 $M = (E,I)$
 
-where the ground set $E$ is partitioned into disjoint sets $E_1,E_2...E_l$ and an independent set $X$ must follow:
+with ground set $E$ and family of independent sets $I$. 
 
-$|X \cap E_i \le k_i|$ 
+For a partition matroid the ground set $E$ is partitioned into disjoint sets $E_1,E_2...E_l$ and an independent set $X$ must follow:
+
+$I = { X \in E: |X \cap E_i \le k_i|}$ 
 
 for all $i = 1,...,l$
 
