@@ -1,6 +1,10 @@
 # partition-matroid
 A Sage based class for creating partition matroids with tuneable capacities.
 
+Sage contains examples of creating partition matroids with capacity 1 for each partition. I have created this modified class to allow tuneable capacities. 
+
+The partitions and capicity for each partition can be specified when creating the matroid.
+
 ## Partition Matroids
 
 A matroid is defined by:
