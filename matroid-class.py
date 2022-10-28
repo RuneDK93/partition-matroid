@@ -1,4 +1,6 @@
 from collections import Counter
+M = matroids.Wheel(4)
+
 class PartitionMatroid(sage.matroids.matroid.Matroid):
     def __init__(self,partition,capacity):
         self.partition = partition
